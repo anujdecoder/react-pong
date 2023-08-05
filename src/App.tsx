@@ -1,7 +1,8 @@
 import React from "react"
+import Background from "./components/Background"
 
 function App() {
-  return <div>hello world</div>
+  return <Background>hello world</Background>
 }
 
 export default App

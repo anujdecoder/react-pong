@@ -28,7 +28,9 @@
       "react-app",
       "react-app/jest"
     ],
-    "ignorePatterns": ["*.config.js"],
+    "ignorePatterns": [
+      "*.config.js"
+    ],
     "plugins": [
       "prettier"
     ],
@@ -80,7 +82,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.6.7",
     "@commitlint/config-conventional": "^17.6.7",
-    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-prettier": "^5.0.0",
     "husky": "^8.0.0",
     "prettier": "3.0.1"
   }
