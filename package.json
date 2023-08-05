@@ -20,13 +20,50 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "ignorePatterns": ["*.config.js"],
+    "plugins": [
+      "prettier"
+    ],
+    "rules": {
+      "quotes": [
+        "error",
+        "double"
+      ],
+      "prettier/prettier": "error",
+      "arrow-body-style": [
+        "error",
+        "as-needed"
+      ],
+      "no-unused-expressions": "off",
+      "import/no-extraneous-dependencies": 0,
+      "no-console": "error",
+      "complexity": [
+        "error",
+        10
+      ],
+      "max-depth": [
+        "error",
+        {
+          "max": 10
+        }
+      ],
+      "max-params": [
+        "error",
+        3
+      ],
+      "max-statements": [
+        "error",
+        10
+      ]
+    }
   },
   "browserslist": {
     "production": [
@@ -39,5 +76,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.7",
+    "@commitlint/config-conventional": "^17.6.7",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.0",
+    "prettier": "3.0.1"
   }
 }
