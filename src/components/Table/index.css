@@ -1,0 +1,33 @@
+.table {
+  border: 8px solid white;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.net {
+  width: 20px;
+  border-left: 4px solid white;
+  border-right: 4px solid white;
+  background: repeating-linear-gradient(-45deg, white, white 4px, transparent 4px, transparent 8px);
+}
+
+.paddle {
+  height: 160px;
+  width: 20px;
+  border-radius: 4px;
+  background-color: #bd0404;
+}
+
+.paddle.player {
+  border-right: 4px solid black;
+}
+
+.paddle.computer {
+  border-left: 4px solid black;
+}
+
+.player-area {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,21 +1,21 @@
 .background .header {
-    height: 80px;
-    color: white;
-    background-color: red;
-    font-size: 48px;
-    padding: 2px 16px 0;
+  height: 80px;
+  color: white;
+  background-color: black;
+  font-size: 48px;
+  padding: 2px 16px 0;
 }
 
 .background .body {
-    height: calc(100vh - 140px);
-    background-color: black;
+  height: calc(100vh - 140px);
+  background-color: #026223;
 }
 
 .background .footer {
-    height: 60px;
-    background-color: red;
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    padding: 12px 0 0;
+  height: 60px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 12px 0 0;
 }
