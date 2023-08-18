@@ -10,7 +10,7 @@ const Table: React.FC = () => {
   }
   return (
     <div className="table" onMouseMove={handleMovement}>
-      <PlayerPaddle mousePosition={state} />
+      <PlayerPaddle mousePosition={state} topBorder={88} bottomBorder={window.innerHeight - 68} />
       <div className="net" />
       <div className={clsx("paddle", "computer")} />
     </div>

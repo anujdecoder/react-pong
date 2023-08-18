@@ -9,6 +9,7 @@
 .background .body {
   height: calc(100vh - 140px);
   background-color: #026223;
+  cursor: move;
 }
 
 .background .footer {

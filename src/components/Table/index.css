@@ -21,6 +21,7 @@
 
 .paddle.player {
   border-right: 4px solid black;
+  position: absolute;
 }
 
 .paddle.computer {
