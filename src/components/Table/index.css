@@ -28,7 +28,10 @@
   border-left: 4px solid black;
 }
 
-.player-area {
-  display: flex;
-  flex-direction: column;
+.table .ping-pong-ball {
+  position: fixed;
+  height: 20px;
+  width: 20px;
+  border-radius: 16px;
+  background-color: #f78b00;
 }

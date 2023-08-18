@@ -17,9 +17,6 @@ const PlayerPaddle: React.FC<Props> = ({ mousePosition, topBorder, bottomBorder 
     return mousePosition - OFFSET
   })()
 
-  // eslint-disable-next-line no-console
-  console.log(position, topBorder, bottomBorder)
-
   return (
     <div className="player-area">
       <div className={clsx("paddle", "player")} style={{ top: position }} />
